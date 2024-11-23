@@ -2,922 +2,787 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Portfolio</title>
+    <title>DevFolio - Developer Portfolio Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Free HTML Templates" name="keywords" />
-    <meta content="Free HTML Templates" name="description" />
+    <meta content="Free Website Template" name="keywords" />
+    <meta content="Free Website Template" name="description" />
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Google Font -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <!-- Font Awesome -->
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
       rel="stylesheet"
     />
-
-    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
+    <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <!-- Navbar Start -->
-    <nav
-      class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5"
-    >
-      <a href="index.html" class="navbar-brand ml-lg-3">
-        <h1 class="m-0 display-5">
-          <span class="text-primary">Port</span>Folio
-        </h1>
-      </a>
-      <button
-        type="button"
-        class="navbar-toggler"
-        data-toggle="collapse"
-        data-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-        <div class="navbar-nav m-auto py-0">
-          <a href="#home" class="nav-item nav-link active">Home</a>
-          <a href="#about" class="nav-item nav-link">About</a>
-          <a href="#qualification" class="nav-item nav-link">Quality</a>
-          <a href="#skill" class="nav-item nav-link">Skill</a>
-          <a href="#service" class="nav-item nav-link">Service</a>
-          <a href="#contact" class="nav-item nav-link">Contact</a>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar End -->
+    <!-- Nav Bar Start -->
 
-    <!-- Header Start -->
-    <div
-      class="container-fluid bg-primary d-flex align-items-center mb-5 py-5"
-      id="home"
-      style="min-height: 100vh"
-    >
-      <div class="container">
+    <!-- Nav Bar End -->
+
+    <!-- Hero Start -->
+    <div class="hero" id="home">
+      <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-            <img
-              class="img-fluid w-100 rounded-circle shadow-sm"
-              src="img/portfolio_pic.jpeg"
-              alt=""
-            />
+          <div class="col-sm-12 col-md-6 d-none d-md-block">
+            <div class="hero-image">
+              <img src="image/portfolio_pic.jpeg" alt="Hero Image" />
+            </div>
           </div>
-          <div class="col-lg-7 text-center text-lg-left">
-            <h3 class="text-white font-weight-normal mb-3">I'm</h3>
-            <h1
-              class="display-3 text-uppercase text-primary mb-2"
-              style="-webkit-text-stroke: 2px #ffffff"
-            >
-              Christina Hailu
-            </h1>
-            <h5 class="d-inline font-weight-lighter text-white">
-              I'm currently pursuing my Bachelor's Degree in Software
-              Engineering.
-            </h5>
-            <br /><br />
-            <ul class="social-icons">
-              <li>
+          <div class="col-sm-12 col-md-6">
+            <div class="hero-content">
+              <div class="hero-text">
+                <p>I'm</p>
+                <h1>Christina Hailu</h1>
+                <h2></h2>
+                <div class="typed-text">
+                  Software Engineer, Research Assistant, Data Engineer
+                </div>
+              </div>
+              <div class="hero-icon">
                 <a
+                  class="icon"
                   href="https://www.linkedin.com/in/christina-solomon1911/"
                   target="_blank"
-                  rel="noopener noreferrer"
                 >
-                  <i class="fab fa-linkedin-in"></i>
+                  <i class="fab fa-linkedin"></i>
                 </a>
-              </li>
-              <li>
-                <a href="tel:+251912640427">
-                  <i class="fas fa-phone-alt"></i>
+                <a class="icon" href="tel:+251912640427">
+                  <i class="fas fa-phone"></i>
                 </a>
-              </li>
-              <li>
-                <a href="mailto:christina.solomon@aait.edu.et">
+                <a class="icon" href="mailto:christinahailu1911@gmail.com">
                   <i class="fas fa-envelope"></i>
                 </a>
-              </li>
-              <li>
                 <a
+                  class="icon"
                   href="https://github.com/sichrisso"
                   target="_blank"
-                  rel="noopener noreferrer"
                 >
                   <i class="fab fa-github"></i>
                 </a>
-              </li>
-            </ul>
-            <div
-              class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5"
-            >
-              <a
-                href="./img/Christina_Resume.pdf"
-                class="btn btn-outline-light mr-5"
-                >Resume</a
-              >
+              </div>
+              <div class="hero-btn">
+                <a
+                  class="btn"
+                  href="./resume/Christina_Hailu_Resume.pdf"
+                  target="_blank"
+                  >Resume</a
+                >
+                <a class="btn" href="mailto:christinahailu1911@gmail.com"
+                  >Contact Me</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Header End -->
+    <!-- Hero End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
-      <div class="container">
-        <div
-          class="position-relative d-flex align-items-center justify-content-center"
-        >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
-          >
-            About
-          </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
-            About Me
-          </h1>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-lg-5 pb-4 pb-lg-0">
-            <img class="img-fluid rounded w-100" src="img/anime.png" alt="" />
-          </div>
-          <div class="col-lg-7">
-            <h3 class="mb-4">Full-Stack Developer & Research Assistant</h3>
-            <p>
-              👋 Hello World! I'm Christina Hailu, an enthusiastic undergraduate
-              student at the Addis Ababa Institute of Technology.
-            </p>
-            <p>
-              🎓 Passionate about the world of technology, I am particularly
-              drawn to the realms of machine learning, full-stack development,
-              and mobile application development. With an inherent curiosity and
-              a determination to innovate, I find myself constantly exploring
-              new avenues within these domains.
-            </p>
-            <p>
-              🔍 Research also holds a special place in my heart. I am
-              fascinated by the power of knowledge and discovery, and I
-              consistently seek opportunities to contribute to meaningful
-              research projects that push the boundaries of what's possible.
-            </p>
+    <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+      <div class="container-fluid">
+        <div class="align-items-center">
+          <div>
+            <div class="about-content">
+              <div class="section-header text-left">
+                <p>Learn About Me</p>
+                <h2>3+ Years Experience</h2>
+              </div>
+              <div class="about-text">
+                <p>
+                  Graduated in Sofware Engineering and Computing Technology from
+                  Addis Ababa Institute of Technology!
+                </p>
+              </div>
+              <div class="skills-container">
+                <div class="skill">
+                  <img src="image/python-2.svg" alt="Python" />
+                  <p>Python</p>
+                </div>
+                <div class="skill">
+                  <img src="image/images.png" alt="Pandas" />
+                  <p>Pandas</p>
+                </div>
+                <div class="skill">
+                  <img src="image/images-6.png" alt="NumPy" />
+                  <p>NumPy</p>
+                </div>
+                <div class="skill">
+                  <img src="image/typescript-original.svg" alt="TypeScript" />
+                  <p>TypeScript</p>
+                </div>
+                <div class="skill">
+                  <img src="image/javascript-original.svg" alt="JavaScript" />
+                  <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                  <img src="image/Dart-logo-icon.svg.png" alt="Dart" />
+                  <p>Dart</p>
+                </div>
+
+                <div class="skill">
+                  <img src="image/images-7.png" alt="PyTorch" />
+                  <p>PyTorch</p>
+                </div>
+                <div class="skill">
+                  <img
+                    src="image/Scikit_learn_logo_small.svg.png"
+                    alt="Scikit-learn"
+                  />
+                  <p>Scikit-learn</p>
+                </div>
+                <div class="skill">
+                  <img src="image/images-8.png" alt="TensorFlow" />
+                  <p>TensorFlow</p>
+                </div>
+
+                <div class="skill">
+                  <img src="image/images-11.png" alt="React" />
+                  <p>React</p>
+                </div>
+                <div class="skill">
+                  <img src="image/nodejs-original-wordmark.svg" alt="NodeJS" />
+                  <p>NodeJS</p>
+                </div>
+                <div class="skill">
+                  <img
+                    src="image/express-original-wordmark.svg"
+                    alt="Express"
+                  />
+                  <p>Express</p>
+                </div>
+                <div class="skill">
+                  <img src="image/Vitejs-logo.svg.png" alt="Vite" />
+                  <p>Vite</p>
+                </div>
+
+                <div class="skill">
+                  <img
+                    src="image/Amazon_Web_Services-Logo.wine.png"
+                    alt="AWS"
+                  />
+                  <p>AWS</p>
+                </div>
+
+                <div class="skill">
+                  <img src="image/mysql-plain.svg" alt="MySQL" />
+                  <p>MySQL</p>
+                </div>
+
+                <div class="skill">
+                  <img src="image/images-12.png" alt="PostgreSQL" />
+                  <p>PostgreSQL</p>
+                </div>
+                <div class="skill">
+                  <img
+                    src="image/tableplus-logo-A6F008C1CC-seeklogo.com.png"
+                    alt="TablePlus"
+                  />
+                  <p>TablePlus</p>
+                </div>
+                <div class="skill">
+                  <img src="image//mongodb-plain.svg" alt="MongoDB" />
+                  <p>MongoDB</p>
+                </div>
+                <div class="skill">
+                  <img src="image/light-prisma.svg" alt="Prisma" />
+                  <p>Prisma</p>
+                </div>
+
+                <div class="skill">
+                  <img src="image/16919504.png" alt="RapidAPI" />
+                  <p>RapidAPI</p>
+                </div>
+                <div class="skill">
+                  <img src="image/images-9.png" alt="FastAPI" />
+                  <p>FastAPI</p>
+                </div>
+
+                <div class="skill">
+                  <img src="image/flutter-plain.svg" alt="Flutter" />
+                  <p>Flutter</p>
+                </div>
+
+                <div class="skill">
+                  <img src="image/images-4.png" alt="Jupyter" />
+                  <p>Jupyter</p>
+                </div>
+                <div class="skill">
+                  <img src="image/images-10.png" alt="Redash" />
+                  <p>Redash</p>
+                </div>
+                <div class="skill">
+                  <img src="image/tableau-software.svg" alt="Tableau" />
+                  <p>Tableau</p>
+                </div>
+
+                <div class="skill">
+                  <img src="image/OpenGL_logo.svg.png" alt="OpenGL" />
+                  <p>OpenGL</p>
+                </div>
+                <div class="skill">
+                  <img src="image/unity.svg" alt="Unity" />
+                  <p>Unity</p>
+                </div>
+                <div class="skill">
+                  <img src="image/pygame.jpg" alt="Pygame" />
+                  <p>Pygame</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- About End -->
 
-    <!-- Qualification Start -->
-    <div class="container-fluid py-5" id="qualification">
+    <!-- Service End -->
+
+    <!-- Experience Start -->
+    <div class="experience" id="experience">
       <div class="container">
-        <div
-          class="position-relative d-flex align-items-center justify-content-center"
+        <header
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
         >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
-          >
-            Quality
-          </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
-            Education & Expericence
-          </h1>
-        </div>
-        <div class="row align-items-start">
-          <div class="col-lg-6">
-            <h3 class="mb-4">My Education</h3>
-            <div class="border-left border-primary pt-2 pl-4 ml-2">
-              <div class="position-relative mb-4">
-                <i
-                  class="far fa-dot-circle text-primary position-absolute"
-                  style="top: 2px; left: -32px"
-                ></i>
-                <h5 class="font-weight-bold mb-1">
-                  Bachelor of Science Degree in Software Engineering
-                </h5>
-                <p class="mb-2">
-                  <strong>Addis Ababa Institute of Technology</strong> |
-                  <small>2019 - Present</small>
-                </p>
-                <p>CGPA: 3.66/4</p>
-              </div>
-              <div class="position-relative mb-4">
-                <i
-                  class="far fa-dot-circle text-primary position-absolute"
-                  style="top: 2px; left: -32px"
-                ></i>
-                <h5 class="font-weight-bold mb-1">Coding Academy</h5>
-                <p class="mb-2">
-                  <strong>Africa To Silicon Valley</strong> |
-                  <small>2022 - Present</small>
-                </p>
-              </div>
-              <div class="position-relative mb-4">
-                <i
-                  class="far fa-dot-circle text-primary position-absolute"
-                  style="top: 2px; left: -32px"
-                ></i>
-                <h5 class="font-weight-bold mb-1">Diploma</h5>
-                <p class="mb-2">
-                  <strong>School of Tomorrow</strong> |
-                  <small>2015 - 2019</small>
-                </p>
-              </div>
+          <p>My Resume</p>
+          <h2>Work/Internship Experience</h2>
+        </header>
+        <div class="timeline">
+          <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+            <div class="timeline-text">
+              <div class="timeline-date">Sept. 2024 - Present</div>
+              <h2>Data Engineer</h2>
+              <h4>Kifiya Financial Technology, Addis Ababa, Ethiopia</h4>
+              <p>
+                Process and analyze large datasets to build and optimize
+                scalable data pipelines
+              </p>
             </div>
           </div>
-          <div class="col-lg-6">
-            <h3 class="mb-4">My Expericence</h3>
-            <div class="border-left border-primary pt-2 pl-4 ml-2">
-              <div class="position-relative mb-4">
-                <i
-                  class="far fa-dot-circle text-primary position-absolute"
-                  style="top: 2px; left: -32px"
-                ></i>
-                <h5 class="font-weight-bold mb-1">
-                  Research Assistant Internship
-                </h5>
-                <p class="mb-2">
-                  <strong
-                    >African Undergraduate Research Adventure (AURA)</strong
-                  >
-                  | <small>2023 - Present</small>
-                </p>
-                <p>
-                  <strong>Skills:</strong> Artificial Intelligence· Machine
-                  Learning · ReactJS · Prisma ORM · Prompt Engineering ·
-                  TypeScript · LaTeX · Communication · Teamwork · Data
-                  Collection · Virtual Reality (VR) · Research
-                </p>
-              </div>
-              <div class="position-relative mb-4">
-                <i
-                  class="far fa-dot-circle text-primary position-absolute"
-                  style="top: 2px; left: -32px"
-                ></i>
-                <h5 class="font-weight-bold mb-1">Full-Stack Developer</h5>
-                <p class="mb-2">
-                  <strong
-                    >mTeam (Web Developer), Creative Design (Web Designer &
-                    Developer), Commercial Graduates Association (Back-end
-                    Developer)</strong
-                  >
-                  | <small>2022 - Present</small>
-                </p>
-                <p>
-                  <strong>Skills:</strong> NodeJS · ExpressJS · ReactJS · UI/UX
-                  Design · Figma · Github · Teamwork
-                </p>
-              </div>
-              <div class="position-relative mb-4">
-                <i
-                  class="far fa-dot-circle text-primary position-absolute"
-                  style="top: 2px; left: -32px"
-                ></i>
-                <h5 class="font-weight-bold mb-1">
-                  Conferences and Symposiums
-                </h5>
-                <p class="mb-2">
-                  <strong
-                    >E-Health & Artificial Intelligence Symposium (e-HAIL),
-                    USENIX ATC'23 OSDI'23 Conference</strong
-                  >
-                  | <small>2023</small>
-                </p>
-              </div>
+          <div
+            class="timeline-item right wow slideInRight"
+            data-wow-delay="0.1s"
+          >
+            <div class="timeline-text">
+              <div class="timeline-date">Oct. 2023 - Jul. 2024</div>
+              <h2>Project Manager, Back-end Developer, Group Leader</h2>
+              <h4>Addis Ababa University, Addis Ababa, Ethiopia</h4>
+              <p>
+                Designed and implemented backend APIs, Led a team, and Managed
+                project timelines
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+            <div class="timeline-text">
+              <div class="timeline-date">Nov. 2023 - Mar. 2024</div>
+              <h2>Web Developer</h2>
+              <h4>Michigan Medicine-mTEAM, Michigan, USA</h4>
+              <p>Designed and developed an interactive dashboard</p>
+            </div>
+          </div>
+          <div
+            class="timeline-item right wow slideInRight"
+            data-wow-delay="0.1s"
+          >
+            <div class="timeline-text">
+              <div class="timeline-date">Feb. 2023 - Sept. 2023</div>
+              <h2>Research Assistant, Developer, Data Analyst</h2>
+              <h4>University of Michigan-Ann Arbor, Michigan, USA</h4>
+              <p>
+                Developed "AutoCLC", an AI-powered web-based interactive
+                visualization system
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+            <div class="timeline-text">
+              <div class="timeline-date">2022</div>
+              <h2>Back-end Developer Intern</h2>
+              <h4>Commercial Graduates Association(CGA), Remote</h4>
+              <p></p>
+            </div>
+          </div>
+          <div
+            class="timeline-item right wow slideInRight"
+            data-wow-delay="0.1s"
+          >
+            <div class="timeline-text">
+              <div class="timeline-date">2022</div>
+              <h2>UI/UX Designer & Web Developer Intern</h2>
+              <h4>Creative Hub Ethiopia, Remote</h4>
+              <p></p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Qualification End -->
+    <!-- Job Experience End -->
 
-    <!-- Skill Start -->
-    <div class="container-fluid py-5" id="skill">
+    <!-- Banner Start -->
+    <div class="banner wow zoomIn" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="section-header text-center">
+          <p>Poster 1</p>
+          <h3>
+            AI-Enhanced Medical Training
+            <span>Closed-Loop Communication Annotation Tool</span>
+          </h3>
+        </div>
+        <div class="container banner-text">
+          <p>
+            Explore the research poster on AI-Enhanced Medical Training
+            Closed-Loop Communication Annotation Tool at E-Health & Artificial
+            Intelligence Symposium (e-HAIL) and at the African Undergraduate
+            Research Adventure (AURA) closing ceremony, highlighting key
+            findings.
+          </p>
+          <a class="btn" href="./poster/CLC_Poster.pdf" target="_blank"
+            >Poster</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Blog Start -->
+    <div class="blog" id="blog">
       <div class="container">
         <div
-          class="position-relative d-flex align-items-center justify-content-center"
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
         >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
-          >
-            Skills
-          </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
-            Tech Stack
-          </h1>
+          <p>Portfolio</p>
+          <h2>Project Showcase</h2>
         </div>
         <div class="row">
-          <div class="inner-row col-md-3">
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/typescript-original.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">TypeScript</span>
+          <!-- Project 1 -->
+          <div class="col">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+              <div class="blog-img">
+                <img
+                  src="proj/Labeled.png"
+                  alt="AI-Enhanced Closed Loop Communication"
+                />
+              </div>
+              <div class="blog-text">
+                <h2>
+                  AI-Enhanced Closed Loop Communication Tool for Medical
+                  Training
+                </h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-search"></i> Research Project</p>
+                </div>
+                <p>
+                  An AI-powered web-based visualization tool for annotating and
+                  evaluating communication in medical simulations.
+                </p>
+                <a
+                  class="btn"
+                  href="https://drive.google.com/file/d/17YZieTyTt4qGjCXd0FG-VPzaPo5iXXpr/view?usp=sharing"
+                  >Read More <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
             </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/NET_Core_Logo.svg.png"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">.Net CoreS</span>
+          </div>
+          <!-- Project 2 -->
+          <div class="col">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+              <div class="blog-img">
+                <img src="proj/Project-1.png" />
+              </div>
+              <div class="blog-text">
+                <h2>
+                  Cognitive Task Analysis of Cardiac Arrest Resuscitation
+                  Simulation
+                </h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-search"></i> Research Project</p>
+                </div>
+                <p>
+                  An interactive dashboard to visualize cognitive task analysis
+                  during in-hospital cardiac arrest management.
+                </p>
+                <a class="btn" href="https://mteam.vercel.app"
+                  >Read More <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
             </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/react-original-wordmark.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">React</span>
-            </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/nodejs-original-wordmark.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">NodeJS</span>
-            </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/mysql-plain.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">MySQL</span>
-            </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/javascript-original.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">JavaScript</span>
-            </div>
+          </div>
 
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/free-postgresql-11-1175122.webp"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">PostgreSQL</span>
+          <div class="col">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+              <div class="blog-img">
+                <img
+                  src="proj/Project-10.png"
+                  alt="Amharic Hate Speech Detection"
+                />
+              </div>
+              <div class="blog-text">
+                <h2>Amharic Hate Speech Detection</h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-search"></i>NPL Project</p>
+                </div>
+                <p>
+                  Developed a CNN-based system to detect hate speech in Amharic
+                  with over 70% accuracy.
+                </p>
+                <a
+                  class="btn"
+                  href="https://github.com/sichrisso/NLP_Hate_Speech_Detection.git"
+                  >Read More <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
             </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/tableplus-logo-A6F008C1CC-seeklogo.com.png"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">TablePlus</span>
+          </div>
+          <div class="col">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+              <div class="blog-img">
+                <img src="proj/Project-12.jpeg" />
+              </div>
+              <div class="blog-text">
+                <h2>AI-Embedded Construction Equipment Rental App</h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-search"></i>Capstone Project</p>
+                </div>
+                <p>
+                  Develop an app with a real-time recommendation engine for
+                  personalized equipment selection and an NLP chatbot powered by
+                  OpenAI’s GPT API for seamless user interactions.
+                </p>
+                <a
+                  class="btn"
+                  href="https://github.com/Tech-Gem/DozerMobile.git"
+                  >Read More <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
             </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/mongodb-plain.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">MongoDB</span>
+          </div>
+
+          <div class="col">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+              <div class="blog-img">
+                <img src="proj/Project-9.png" />
+              </div>
+              <div class="blog-text">
+                <h2>Grade Prediction System</h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-search"></i>ML Project</p>
+                </div>
+                <p>
+                  Built a machine learning model to predict grades and optimize
+                  study plans for students.
+                </p>
+                <a
+                  class="btn"
+                  href="https://github.com/sichrisso/Student-Marks-Prediction.git"
+                  >Read More <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
             </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/html5-original.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">HTML</span>
+          </div>
+
+          <div class="col">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+              <div class="blog-img">
+                <img src="proj/Project-3.png" />
+              </div>
+              <div class="blog-text">
+                <h2>Dimir Structure’s website</h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-search"></i>Frontend Project</p>
+                </div>
+                <p>
+                  Developed a modern, user-friendly landing page website,
+                  focusing on clean design and intuitive navigation.
+                </p>
+                <a
+                  class="btn"
+                  href="https://www.figma.com/proto/u7CjIIIXS2zlSsCUvUXkHZ/Dimir-Structures's-team-library?node-id=1156-1980&node-type=frame&t=K9oBg1p2fcWhnKnC-1&scaling=min-zoom&content-scaling=fixed&page-id=418%3A2&starting-point-node-id=767%3A1873"
+                  >Read More <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
             </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/tailwindcss-icon.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">Tailwind CSS</span>
+          </div>
+
+          <div class="col">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+              <div class="blog-img">
+                <img src="proj/Project-5.png" />
+              </div>
+              <div class="blog-text">
+                <h2>Commercial Graduates Association (CGA)</h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-search"></i>Backend Project</p>
+                </div>
+                <p>
+                  Contributed to building and optimizing CGA's back-end systems,
+                  focusing on scalability, performance, and reliability.
+                </p>
+                <a class="btn" href="https://github.com/sichrisso/node_api.git"
+                  >Read More <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
             </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/Git_icon.svg.png"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">Git</span>
+          </div>
+
+          <div class="col">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+              <div class="blog-img">
+                <img src="proj/Project-7.png" alt="User Action Plot" />
+              </div>
+              <div class="blog-text">
+                <h2>User Action Analytics Dashboard</h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-search"></i>Research Project</p>
+                </div>
+                <p>
+                  Developed a dashboard to visualize user actions over a
+                  specified period, providing clear and concise insights into
+                  actions performed.
+                </p>
+                <a class="btn" href=""
+                  >Read More <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
             </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/getpostman-icon.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">Postman</span>
+          </div>
+
+          <div class="col">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+              <div class="blog-img">
+                <img
+                  src="proj/project-8.jpeg"
+                  alt="Amharic Hate Speech Detection"
+                />
+              </div>
+              <div class="blog-text">
+                <h2>GitHub Profile Finder</h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-search"></i>Project</p>
+                </div>
+                <p>
+                  A simple application that enables users to search for GitHub
+                  accounts by username and view their profiles.
+                </p>
+                <a
+                  class="btn"
+                  href="https://github.com/sichrisso/AhunProject.git"
+                  >Read More <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
             </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/flutter-plain.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">Flutter</span>
-            </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/express-original-wordmark.svg"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">ExpressJS</span>
-            </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/Dart-logo-icon.svg.png"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">Dart</span>
-            </div>
-            <div class="skill-item">
-              <img
-                class="mr-4 skill-img"
-                src="./img/CSS3_logo.svg.png"
-                alt="Tech Stack Icon 1"
-              />
-              <span class="font-weight-bold">CSS</span>
+          </div>
+
+          <div class="col">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+              <div class="blog-img">
+                <img
+                  src="proj/project-13.png"
+                  alt="Amharic Hate Speech Detection"
+                />
+              </div>
+              <div class="blog-text">
+                <h2>Python Watch</h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-search"></i> Project</p>
+                </div>
+                <p>A simple watch using Turtle Python</p>
+                <a
+                  class="btn"
+                  href="https://github.com/sichrisso/Python_Watch.git"
+                  >Read More <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Skill End -->
 
-    <!-- Services Start -->
-    <div class="container-fluid pt-5" id="service">
+    <div class="banner wow zoomIn" data-wow-delay="0.1s">
       <div class="container">
-        <div
-          class="position-relative d-flex align-items-center justify-content-center"
-        >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
-          >
-            Service
-          </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
-            My Services
-          </h1>
+        <div class="section-header text-center">
+          <p>Poster 2</p>
+          <h3>
+            DOZER: Heavy Machinery Rental Hub, Streamlining
+
+            <span>Construction Equipment Access in Ethiopia</span>
+          </h3>
         </div>
-        <div class="row pb-3">
-          <div class="col-lg-4 col-md-6 text-center mb-5">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              <i
-                class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"
-              ></i>
-              <h4 class="font-weight-bold m-0">Web Design</h4>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center mb-5">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              <i
-                class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"
-              ></i>
-              <h4 class="font-weight-bold m-0">Web Development</h4>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center mb-5">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              <i
-                class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"
-              ></i>
-              <h4 class="font-weight-bold m-0">Mobile Development</h4>
-            </div>
-          </div>
+        <div class="container banner-text">
+          <p>
+            Explore the research poster on AI-powered construction equipment
+            streamlining tool at the AAU 5th Research and Fair Week on emerging
+            technologies for sustainable socioeconomic development highlighting
+            key findings.
+          </p>
+          <a class="btn" href="./poster/AAU-Dozer-Poser.pdf" target="_blank"
+            >Poster</a
+          >
         </div>
       </div>
     </div>
-    <!-- Services End -->
 
     <!-- Portfolio Start -->
-    <!-- <div class="container-fluid pt-5 pb-3" id="portfolio">
+    <div class="portfolio" id="portfolio">
       <div class="container">
         <div
-          class="position-relative d-flex align-items-center justify-content-center"
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
         >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
-          >
-            Gallery
-          </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
-            My Portfolio
-          </h1>
+          <p>My Certificates</p>
+          <h2>My Certificate Collection</h2>
         </div>
         <div class="row">
-          <div class="col-12 text-center mb-2">
-            <ul class="list-inline mb-4" id="portfolio-flters">
-              <li
-                class="btn btn-sm btn-outline-primary m-1 active"
-                data-filter="*"
-              >
-                All
-              </li>
-              <li
-                class="btn btn-sm btn-outline-primary m-1"
-                data-filter=".first"
-              >
-                Design
-              </li>
-              <li
-                class="btn btn-sm btn-outline-primary m-1"
-                data-filter=".second"
-              >
-                Development
-              </li>
-              <li
-                class="btn btn-sm btn-outline-primary m-1"
-                data-filter=".third"
-              >
-                Marketing
-              </li>
+          <div class="col-12">
+            <ul id="portfolio-filter">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-1">Tech</li>
+              <li data-filter=".filter-2">Course</li>
+              <li data-filter=".filter-3">Volunteering</li>
             </ul>
           </div>
         </div>
         <div class="row portfolio-container">
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-1.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-2.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-3.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-4.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-5.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-6.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Portfolio End -->
-
-    <!-- Testimonial Start -->
-    <!-- <div class="container-fluid py-5" id="testimonial">
-      <div class="container">
-        <div
-          class="position-relative d-flex align-items-center justify-content-center"
-        >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.0s"
           >
-            Review
-          </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
-            Clients Say
-          </h1>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="owl-carousel testimonial-carousel">
-              <div class="text-center">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                <h4 class="font-weight-light mb-4">
-                  Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
-                  elitr dolore et eos labore, stet justo sed est sed. Diam sed
-                  sed dolor stet accusam amet eirmod eos, labore diam clita
-                </h4>
-                <img
-                  class="img-fluid rounded-circle mx-auto mb-3"
-                  src="img/testimonial-1.jpg"
-                  style="width: 80px; height: 80px"
-                />
-                <h5 class="font-weight-bold m-0">Client Name</h5>
-                <span>Profession</span>
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="certificate/AAU-Poster-cert.JPG" alt="Image" />
               </div>
-              <div class="text-center">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                <h4 class="font-weight-light mb-4">
-                  Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
-                  elitr dolore et eos labore, stet justo sed est sed. Diam sed
-                  sed dolor stet accusam amet eirmod eos, labore diam clita
-                </h4>
-                <img
-                  class="img-fluid rounded-circle mx-auto mb-3"
-                  src="img/testimonial-2.jpg"
-                  style="width: 80px; height: 80px"
-                />
-                <h5 class="font-weight-bold m-0">Client Name</h5>
-                <span>Profession</span>
-              </div>
-              <div class="text-center">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                <h4 class="font-weight-light mb-4">
-                  Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
-                  elitr dolore et eos labore, stet justo sed est sed. Diam sed
-                  sed dolor stet accusam amet eirmod eos, labore diam clita
-                </h4>
-                <img
-                  class="img-fluid rounded-circle mx-auto mb-3"
-                  src="img/testimonial-3.jpg"
-                  style="width: 80px; height: 80px"
-                />
-                <h5 class="font-weight-bold m-0">Client Name</h5>
-                <span>Profession</span>
+              <div class="portfolio-text">
+                <h3>AAU 5th Research Fair</h3>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Testimonial End -->
-
-    <!-- Blog Start -->
-    <!-- <div class="container-fluid pt-5" id="blog">
-      <div class="container">
-        <div
-          class="position-relative d-flex align-items-center justify-content-center"
-        >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.2s"
           >
-            Blog
-          </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
-            Latest Blog
-          </h1>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 mb-5">
-            <div class="position-relative mb-4">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/blog-1.jpg"
-                alt=""
-              />
-              <div class="blog-date">
-                <h4 class="font-weight-bold mb-n1">01</h4>
-                <small class="text-white text-uppercase">Jan</small>
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="certificate/Certificate.pdf" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>ML Internship Completion</h3>
               </div>
             </div>
-            <h5 class="font-weight-medium mb-4">
-              Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum
-            </h5>
-            <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
           </div>
-          <div class="col-lg-4 mb-5">
-            <div class="position-relative mb-4">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/blog-2.jpg"
-                alt=""
-              />
-              <div class="blog-date">
-                <h4 class="font-weight-bold mb-n1">01</h4>
-                <small class="text-white text-uppercase">Jan</small>
-              </div>
-            </div>
-            <h5 class="font-weight-medium mb-4">
-              Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum
-            </h5>
-            <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
-          </div>
-          <div class="col-lg-4 mb-5">
-            <div class="position-relative mb-4">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/blog-3.jpg"
-                alt=""
-              />
-              <div class="blog-date">
-                <h4 class="font-weight-bold mb-n1">01</h4>
-                <small class="text-white text-uppercase">Jan</small>
-              </div>
-            </div>
-            <h5 class="font-weight-medium mb-4">
-              Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum
-            </h5>
-            <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Blog End -->
-
-    <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
-      <div class="container">
-        <div
-          class="position-relative d-flex align-items-center justify-content-center"
-        >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.4s"
           >
-            Contact
-          </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
-            Contact Me
-          </h1>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="contact-form text-center">
-              <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                <div class="form-row">
-                  <div class="control-group col-sm-6">
-                    <input
-                      type="text"
-                      class="form-control p-4"
-                      id="name"
-                      placeholder="Your Name"
-                      required="required"
-                      data-validation-required-message="Please enter your name"
-                    />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="control-group col-sm-6">
-                    <input
-                      type="email"
-                      class="form-control p-4"
-                      id="email"
-                      placeholder="Your Email"
-                      required="required"
-                      data-validation-required-message="Please enter your email"
-                    />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <input
-                    type="text"
-                    class="form-control p-4"
-                    id="subject"
-                    placeholder="Subject"
-                    required="required"
-                    data-validation-required-message="Please enter a subject"
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="control-group">
-                  <textarea
-                    class="form-control py-3 px-4"
-                    rows="5"
-                    id="message"
-                    placeholder="Message"
-                    required="required"
-                    data-validation-required-message="Please enter your message"
-                  ></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div>
-                  <button
-                    class="btn btn-outline-primary"
-                    type="submit"
-                    id="sendMessageButton"
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </form>
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img
+                  src="certificate/Christina Solomon - Certificate.pdf"
+                  alt="Image"
+                />
+              </div>
+              <div class="portfolio-text">
+                <h3>AI for Impact Hackathon</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.6s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="certificate/TestJS_Certificate.png" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>Conference Participation</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
+            data-wow-delay="0.8s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="certificate/Coursera-React.pdf" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>React Course</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp"
+            data-wow-delay="1s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="certificate/Alert.jpeg" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>Hospital Volunteer</h3>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Contact End -->
+    <!-- Portfolio End -->
+
+    <!-- Blog End -->
 
     <!-- Footer Start -->
-    <div
-      class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5"
-    >
-      <div class="container text-center py-5">
-        <p class="m-0">
-          &copy;
-          <a class="text-white font-weight-bold" href="#">2023</a>. All Rights
-          Reserved. Designed by
-          <a class="text-white font-weight-bold" href="https://htmlcodex.com"
-            >Chrissoo 👩🏽‍💻</a
-          >
-        </p>
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+      <div class="container-fluid">
+        <div class="container copyright">
+          <p>
+            &copy; <a>2024</a>, All Right Reserved |
+
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            Designed By <a>Chrisso 👩🏽‍💻</a>
+          </p>
+        </div>
       </div>
     </div>
     <!-- Footer End -->
 
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+    <!-- Back to top button -->
+    <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-dark px-0 back-to-top"
-      ><i class="fa fa-angle-double-up"></i
-    ></a>
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+      <div class="loader"></div>
+    </div>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
